@@ -90,6 +90,29 @@ p{
     width: 567px;
     height: 427px;
 }
+
+/* shop area styles */
+.afc-shop, .afc-location-title{
+    color: #E02C6D;
+    text-transform: uppercase;
+}
+
+.shops{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+.shop{
+    background-color: #E02C6D;
+    cursor: pointer;
+}
+.shop{
+    border: 1px solid #7E0019;
+    box-shadow: 0px 3px 8px 0px brown;
+}
+.shop img{
+    width:100%;
+}
  /*
 --------------------------
     footer styles
@@ -120,24 +143,13 @@ p{
     color: #000000;
     letter-spacing: 1px;
 }
-/* shop area styles */
-.afc-shop{
-    color: #E02C6D;
+/* location style */
+.location{
+    margin-top: 70px;
 }
 
-.shops{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 10px;
-}
-.shop{
-    background-color: #E02C6D;
-    cursor: pointer;
-}
-.shop{
-    border: 1px solid #7E0019;
-    box-shadow: 0px 3px 8px 0px brown;
-}
-.shop img{
-    width:100%;
+/* media-queriye */
+/* mobile-device */
+@media screen {
+    
 }
