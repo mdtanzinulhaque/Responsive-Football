@@ -177,6 +177,7 @@ p{
      /* highlights */
      .highlights-area{
         grid-template-columns: repeat(1, 1fr);
+        padding: 35px 0px;
      }
      .highlights-thumbnail{
          margin-top: 29px;
@@ -185,7 +186,20 @@ p{
         width: 100%;
         height: auto;
     }
-    .shop-area, .location, .footer-area, .copyright{
-        display: none;
+    /* shops */
+    .shops{
+        padding: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
     }
+    /* location */
+    .location{}
+     
+    /* footer */
+    .footer-logo img{
+        width: 100%;
+        height: auto;
+    }
+    /* copyright */
 }
