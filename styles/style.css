@@ -124,6 +124,12 @@ header{
     padding: 10px 20px;
     font-weight: 500;
 }
+.highlights-info .watch-now a:hover{
+    background-color: #FFFFFF;
+    color: #2D25A0;
+    transition: 1s linear;
+    box-shadow: -1px 3px 0px 4px #e02c6d;
+}
 .highlights-info .fa-arrow-right{
     margin-left: 8px;
 }
@@ -131,7 +137,10 @@ header{
     width: 567px;
     height: 427px;
 }
-
+.highlights-thumbnail img:hover{
+    transform: scale(0.75);
+    transition: 1s linear;
+}
 /* shop area styles */
 .afc-shop, .afc-location-title{
     color: #E02C6D;
@@ -144,7 +153,6 @@ header{
     grid-column-gap: 10px;
 }
 .shop{
-    background-color: #E02C6D;
     cursor: pointer;
 }
 .shop{
