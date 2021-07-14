@@ -19,6 +19,37 @@ p{
     color: #6C6C6C;
     margin: 0;
 }
+/* header styles */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 67px 0px 86px 0px;
+}
+.topper-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.topper-info h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 64px;
+}
+.topper-info .watch-now a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.topper-info .fa-arrow-right{
+    margin-left: 8px;
+}
+.topper-area .topper-banner img{
+    width: 556.01px;
+    height: 438px;
+}
  /*
 --------------------------
     players-area styles
