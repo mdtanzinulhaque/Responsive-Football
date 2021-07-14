@@ -113,6 +113,11 @@ p{
 .shop img{
     width:100%;
 }
+
+/* location style */
+.location{
+    margin-top: 70px;
+}
  /*
 --------------------------
     footer styles
@@ -128,6 +133,11 @@ p{
     width: 483.87px;
     height: 110px;
 }
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .icon .font-icon{
     padding: 20px 0px;
 }
@@ -138,20 +148,33 @@ p{
     margin-right: 14px;
     border-radius: 50%;
 }
+.icon .font-icon a{
+    text-decoration: none;
+}
 .copyright{
     font-size: 18px;
     color: #000000;
     letter-spacing: 1px;
 }
-/* location style */
-.location{
-    margin-top: 70px;
-}
+
 
 /* media-queriye */
 /* mobile-device */
-@media only screen and (maz-width:688px) {
-    .highlights-area, .shop-area, .location, .footer-area{
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    /* players */
+    .players{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player img{
+        width: 100%;
+        height: auto;
+     }
+    .highlights-area, .shop-area, .location, .footer-area, .copyright{
         display: none;
     }
 }
