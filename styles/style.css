@@ -46,9 +46,12 @@ p{
  }
 .player h3{
     font-size: 28px;
-    color: #18191F;
     margin: 0;
     padding: 16px 0px 10px 0px;
+ }
+ .player a{
+    color: #18191F;
+    text-decoration: none;
  }
 
  /*
@@ -92,3 +95,49 @@ p{
     footer styles
 --------------------------
 */
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0px 63px 0px;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.icon .font-icon{
+    padding: 20px 0px;
+}
+.icon .footer-icon{
+    padding: 14px;
+    color: #969BAB;
+    background-color: #E7E7E8;
+    margin-right: 14px;
+    border-radius: 50%;
+}
+.copyright{
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+/* shop area styles */
+.afc-shop{
+    color: #E02C6D;
+}
+
+.shops{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+.shop{
+    background-color: #E02C6D;
+    cursor: pointer;
+}
+.shop{
+    border: 1px solid #7E0019;
+    box-shadow: 0px 3px 8px 0px brown;
+}
+.shop img{
+    width:100%;
+}
