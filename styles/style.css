@@ -43,6 +43,16 @@ header{
     padding: 10px 20px;
     font-weight: 500;
 }
+.topper-info .watch-now:hover{
+    transform: translateY(5px);
+    transition: 1s linear;
+}
+.topper-info .watch-now a:hover{
+    background-color: #FFFFFF;
+    color: #2D25A0;
+    transition: 1s linear;
+    box-shadow: -1px 3px 0px 4px #e02c6d;
+}
 .topper-info .fa-arrow-right{
     margin-left: 8px;
 }
@@ -144,7 +154,10 @@ header{
 .shop img{
     width:100%;
 }
-
+.shop:hover img{
+    transform: scale(0.75);
+    transition: 1s linear;
+}
 /* location style */
 .location{
     margin-top: 70px;
