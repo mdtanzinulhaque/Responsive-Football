@@ -150,6 +150,8 @@ p{
 
 /* media-queriye */
 /* mobile-device */
-@media screen {
-    
+@media only screen and (maz-width:688px) {
+    .highlights-area, .shop-area, .location, .footer-area{
+        display: none;
+    }
 }
