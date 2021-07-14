@@ -3,9 +3,10 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 .container{
- 
+    width: 1050px; 
 }
 main{
     display: flex;
@@ -13,10 +14,16 @@ main{
     align-items: center;
     /* justify-content: center; */
 }
- /* players-area styles */
-.players-area{
-    width: 1050px; 
- }
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 0;
+}
+ /*
+--------------------------
+    players-area styles
+--------------------------
+*/
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -43,8 +50,37 @@ main{
     margin: 0;
     padding: 16px 0px 10px 0px;
  }
-.player p{
-    font-size: 16px;
-    color: #6C6C6C;
+
+ /*
+--------------------------
+    highlights-area styles
+--------------------------
+*/
+.highlights-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 70px 0px;
+    grid-column-gap: 66px;
+}
+.highlights-info h1{
+    font-size: 48px;
+    color: #0A0826;
     margin: 0;
+}
+.highlights-info p.watch-now{
+    margin-top: 24px;
+}
+.highlights-info a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.highlights-info .fa-arrow-right{
+    margin-left: 8px;
+}
+.highlights-thumbnail img{
+    width: 567px;
+    height: 427px;
 }
